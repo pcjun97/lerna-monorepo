@@ -6,9 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pcjun97/lerna-monorepo.git",
+    "directory": "packages/foo"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@pcjun97/lerna-monorepo-bar": "^0.0.1"
-  }
+  },
+  "gitHead": "b3452bb589fdb4c0a7981f30a8fc34019e207762"
 }
