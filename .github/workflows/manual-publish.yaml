@@ -1,0 +1,27 @@
+name: Manual publish
+
+on:
+  workflow_dispatch:
+    inputs:
+      bump:
+        description: |
+          Increment version(s) by explicit version or_ semver keyword,
+          'major', 'minor', 'patch', 'premajor', 'preminor', 'prepatch', 'prerelease', 'from-git', or 'from-package'
+        required: true
+        default: patch
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: main
+
+      - name: Prepare dependencies
+        run: |
+          npm ci
+
+      - name: Publish
+        run: |
+          npx lerna publish ${{ github.event.inputs.bump }} --force-publish "*" yes
