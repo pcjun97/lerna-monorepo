@@ -1,17 +1,17 @@
 {
-  "name": "@pcjun97/lerna-monorepo-bar",
-  "version": "0.0.2",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/pcjun97/lerna-monorepo.git",
-    "directory": "packages/bar"
-  },
-  "author": "",
-  "license": "ISC",
-  "gitHead": "b3452bb589fdb4c0a7981f30a8fc34019e207762"
+	"name": "@pcjun97/lerna-monorepo-bar",
+	"version": "0.0.3",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo run test for bar && exit 0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/pcjun97/lerna-monorepo.git",
+		"directory": "packages/bar"
+	},
+	"author": "",
+	"license": "ISC",
+	"gitHead": "b3452bb589fdb4c0a7981f30a8fc34019e207762"
 }
