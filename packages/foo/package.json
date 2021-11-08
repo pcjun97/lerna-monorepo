@@ -1,6 +1,6 @@
 {
   "name": "@pcjun97/lerna-monorepo-foo",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@pcjun97/lerna-monorepo-bar": "0.0.13"
+    "@pcjun97/lerna-monorepo-bar": "0.0.14"
   },
   "gitHead": "3842c6de5878d5f843dbddbf723f911a97f39ed9",
   "publishConfig": {
