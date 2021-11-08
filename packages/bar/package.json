@@ -1,6 +1,6 @@
 {
   "name": "@pcjun97/lerna-monorepo-bar",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -13,5 +13,8 @@
   },
   "author": "",
   "license": "ISC",
-  "gitHead": "c0b7f03cc3beb6882780e27ce9f7309758d4f9b1"
+  "gitHead": "3842c6de5878d5f843dbddbf723f911a97f39ed9",
+  "publishConfig": {
+    "access": "public"
+  }
 }
