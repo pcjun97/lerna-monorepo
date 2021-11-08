@@ -21,6 +21,7 @@ jobs:
       - name: Prepare dependencies
         run: |
           npm ci
+          echo '//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}' > $HOME/.npmrc
 
       - name: Publish
         run: |
